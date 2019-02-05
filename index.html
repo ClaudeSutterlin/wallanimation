@@ -6,6 +6,7 @@
                 background-color: black;
                 color: white;
                 font-family: 'Concert One', cursive;
+                margin-top: 100px;
             }
     
             .ml11 {
@@ -28,7 +29,7 @@
                 left: 0;
                 height: 100%;
                 width: 3px;
-                background-color: white;
+                background-color: black;
                 transform-origin: 0 50%;
             }
     
@@ -45,7 +46,7 @@
             .svg {
                 display: block;
                 margin: 0 auto;
-                margin-top: -20px;
+                margin-top: 20px;
             }
             .blend {
                 mix-blend-mode: multiply;
@@ -219,7 +220,7 @@
             .add({
             targets: animation.name,
             stroke: {
-                value: ['#000', animation.stroke],
+                value: ['#fff', animation.stroke],
                 duration: 500,
                 delay: 1000 + index * 30,
                 easing: 'easeInOutQuad'
@@ -232,7 +233,7 @@
             .add({
             targets: animation.name,
             fill: {
-                value: ['#000', animation.fill],
+                value: ['#fff', animation.fill],
                 duration: 500,
                 delay: 1000 + index * 30,
                 easing: 'easeInOutQuad'
